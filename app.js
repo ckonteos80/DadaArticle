@@ -11,10 +11,6 @@ console.log('Dynamic text:', dynamicText);
 // const templateImg = new Image();
 // templateImg.src = 'TemplatePost.png'; // Ensure this file is in your project folder
 
-// When the image loads, draw it on the canvas and then export as JPEG
-templateImg.onload = function() {
-  // Draw the image to fill the canvas
-  // ctx.drawImage(templateImg, 0, 0, canvas.width, canvas.height);
 
   // Set text properties
   ctx.font = '40px Arial';
@@ -45,4 +41,4 @@ templateImg.onload = function() {
   //   });
   // }, 'image/jpeg');
   
-};
+
