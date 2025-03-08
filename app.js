@@ -22,7 +22,6 @@ templateImg.onload = function() {
   ctx.textAlign = 'left';
   ctx.textBaseline = 'top';
 
-  // Draw the dynamic text on the canvas
   ctx.fillText(dynamicText, 50, 100);
   // canvas.toBlob(function(blob) {
   //   // Create a FormData object and append the blob with a filename
